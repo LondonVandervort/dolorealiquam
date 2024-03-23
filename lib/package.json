@@ -1,0 +1,41 @@
+{
+  "name": "bungie-api-ts",
+  "version": "1.6.0",
+  "description": "TypeScript mappings for the Bungie.net API",
+  "main": "./dist/index.ts",
+  "types": "./dist/index.d.ts",
+  "sideEffects": false,
+  "scripts": {
+    "start": "./build.sh",
+    "submodule": "git submodule init && git submodule update",
+    "lint": "tslint --fix -p tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DestinyItemManager/bungie-api-ts.git"
+  },
+  "author": "Ben Hollis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DestinyItemManager/bungie-api-ts/issues"
+  },
+  "keywords": [
+    "Destiny",
+    "Bungie",
+    "Bungie.net",
+    "TypeScript"
+  ],
+  "homepage": "https://github.com/DestinyItemManager/bungie-api-ts",
+  "devDependencies": {
+    "@types/node": "^8.5.2",
+    "@types/underscore": "^1.8.6",
+    "mkdirp": "^0.5.1",
+    "openapi3-ts": "^0.6.2",
+    "ts-node": "^4.1.0",
+    "tslint": "^5.8.0",
+    "tslint-eslint-rules": "^4.1.1",
+    "typescript": "^2.6.2",
+    "underscore": "^1.8.3"
+  },
+  "dependencies": {}
+}
